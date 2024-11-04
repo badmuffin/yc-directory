@@ -1,12 +1,11 @@
-export const metadata = {
-  title: "Home",
-};
+import React from 'react'
 
-export default function Home() {
-  console.log("hey from server");
+const page = () => {
   return (
     <>
-      <h1 className=" text-3xl">Hello</h1>
+      <h1 className='text-3xl'>Home</h1>
     </>
-  );
+  )
 }
+
+export default page
